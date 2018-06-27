@@ -5,7 +5,7 @@
         <description/>
         <label_cache>[{"name":"cc2b1e1e-67d1-414a-9221-939376c3519f.table_name","label":"2.1➛Incident Table","reference":"incident","reference_display":"Incident Table"},{"name":"cc2b1e1e-67d1-414a-9221-939376c3519f.record","label":"2.1➛Incident Record","reference":"incident","reference_display":"Incident Record"},{"name":"Created or Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"df25eb2a-2760-446d-871c-68a86943b0df.http_code","label":"1➛http_code","type":"string","base_type":"string"},{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"df25eb2a-2760-446d-871c-68a86943b0df.http_status","label":"1➛http_status","reference_display":"http_status"}]</label_cache>
         <name>Integration Flow</name>
-        <parent_flow display_value="Integration Flow">ea03f9844f031300ea0645dba310c7fe</parent_flow>
+        <parent_flow display_value="Critical Incident Flow">ea03f9844f031300ea0645dba310c7fe</parent_flow>
         <remote_trigger_id/>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>

@@ -7,21 +7,21 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Integration Flow">ea03f9844f031300ea0645dba310c7fe</flow>
-        <order>1</order>
+        <flow display_value="Critical Incident Flow">ea03f9844f031300ea0645dba310c7fe</flow>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 10:20:09</sys_created_on>
         <sys_id>e098f9084f831300ea0645dba310c732</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
         <sys_update_name>sys_hub_action_instance_e098f9084f831300ea0645dba310c732</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-27 12:03:20</sys_updated_on>
+        <sys_updated_on>2018-06-27 12:24:32</sys_updated_on>
         <ui_id>df25eb2a-2760-446d-871c-68a86943b0df</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e098f9084f831300ea0645dba310c732"/>
