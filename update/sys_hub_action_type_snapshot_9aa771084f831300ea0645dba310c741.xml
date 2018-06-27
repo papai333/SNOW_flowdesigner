@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_endpoint}}","label":"action➛Endpoint","type":"action","ref":""},{"name":"{{action.ah_method}}","label":"action➛method","type":"action","ref":""},{"name":"{{action.ah_json}}","label":"action➛json","type":"action","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].h}}","label":"step➛Script step➛h","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].ht}}","label":"step➛Script step➛ht","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].htt}}","label":"step➛Script step➛htt","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].http}}","label":"step➛Script step➛http","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpS}}","label":"step➛Script step➛httpS","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpSt}}","label":"step➛Script step➛httpSt","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpSta}}","label":"step➛Script step➛httpSta","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStat}}","label":"step➛Script step➛httpStat","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatu}}","label":"step➛Script step➛httpStatu","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpCode}}","label":"step➛Script step➛httpCode","type":"step","ref":""}]</label_cache>
+        <name>Integration Outbound</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Integration Outbound">c8d4f1844f831300ea0645dba310c7f7</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 10:16:10</sys_created_on>
+        <sys_id>9aa771084f831300ea0645dba310c741</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Integration Outbound</sys_name>
+        <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_9aa771084f831300ea0645dba310c741</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 10:16:12</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9aa771084f831300ea0645dba310c741"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9aa771084f831300ea0645dba310c741"/>
+    <sys_element_mapping action="delete_multiple" query="id=9aa771084f831300ea0645dba310c741"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_code</field>
+        <id>9aa771084f831300ea0645dba310c741</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 10:16:12</sys_created_on>
+        <sys_id>fea771084f831300ea0645dba310c7d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 10:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9aa771084f831300ea0645dba310c741</table>
+        <value>{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpCode}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_status</field>
+        <id>9aa771084f831300ea0645dba310c741</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 10:16:12</sys_created_on>
+        <sys_id>b2a771084f831300ea0645dba310c7d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 10:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9aa771084f831300ea0645dba310c741</table>
+        <value>{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatus}}</value>
+    </sys_element_mapping>
+</record_update>

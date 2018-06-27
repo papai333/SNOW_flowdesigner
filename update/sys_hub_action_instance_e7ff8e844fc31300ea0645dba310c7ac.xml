@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Integration Flow">6bff0a444fc31300ea0645dba310c78f</flow>
+        <order>2.1</order>
+        <parent_ui_id>469ee6da-092a-4bdf-8e47-53590389edf0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 12:02:29</sys_created_on>
+        <sys_id>e7ff8e844fc31300ea0645dba310c7ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e7ff8e844fc31300ea0645dba310c7ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 12:02:29</sys_updated_on>
+        <ui_id>cc2b1e1e-67d1-414a-9221-939376c3519f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e7ff8e844fc31300ea0645dba310c7ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e7ff8e844fc31300ea0645dba310c7ac</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 12:02:29</sys_created_on>
+        <sys_id>67ff8e844fc31300ea0645dba310c7af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 12:02:29</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e7ff8e844fc31300ea0645dba310c7ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e7ff8e844fc31300ea0645dba310c7ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 12:02:29</sys_created_on>
+        <sys_id>23ff8e844fc31300ea0645dba310c7af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 12:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e7ff8e844fc31300ea0645dba310c7ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 12:02:29</sys_created_on>
+        <sys_id>6fff8e844fc31300ea0645dba310c7ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 12:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e7ff8e844fc31300ea0645dba310c7ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 12:02:29</sys_created_on>
+        <sys_id>e3ff8e844fc31300ea0645dba310c7af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 12:02:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>state=7^close_code=Solved Remotely (Permanently)^close_notes={{df25eb2a-2760-446d-871c-68a86943b0df.http_status}}</value>
+    </sys_element_mapping>
+</record_update>
