@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 10:20:09</sys_created_on>
         <sys_id>e098f9084f831300ea0645dba310c732</sys_id>
-        <sys_mod_count>89</sys_mod_count>
+        <sys_mod_count>105</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
         <sys_update_name>sys_hub_action_instance_e098f9084f831300ea0645dba310c732</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-11-04 08:10:26</sys_updated_on>
+        <sys_updated_on>2018-11-04 13:41:05</sys_updated_on>
         <ui_id>df25eb2a-2760-446d-871c-68a86943b0df</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e098f9084f831300ea0645dba310c732"/>
@@ -460,11 +460,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-04 07:31:13</sys_created_on>
         <sys_id>6990f2f50fe563007e12943be1050e87</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-04 07:42:03</sys_updated_on>
+        <sys_updated_on>2018-11-04 13:39:54</sys_updated_on>
         <table>var__m_sys_hub_action_input_1cfda2350fe563007e12943be1050e76</table>
-        <value>{"short_description":{{Created or Updated_1.current.short_description}}}</value>
+        <value>{{Created or Updated_1.current.short_description}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_input_json</field>

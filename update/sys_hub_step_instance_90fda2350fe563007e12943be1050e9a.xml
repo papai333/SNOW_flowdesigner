@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-04 07:19:40</sys_created_on>
         <sys_id>90fda2350fe563007e12943be1050e9a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Script step</sys_name>
         <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
         <sys_update_name>sys_hub_step_instance_90fda2350fe563007e12943be1050e9a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-04 08:08:09</sys_updated_on>
+        <sys_updated_on>2018-11-04 13:39:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90fda2350fe563007e12943be1050e9a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -33,22 +33,23 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-04 07:19:41</sys_created_on>
         <sys_id>20fda2350fe563007e12943be1050ec7</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-04 08:08:09</sys_updated_on>
+        <sys_updated_on>2018-11-04 13:39:31</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   
  var v_json= inputs.json;
-  gs.debug('Integration- EndPoint:'+inputs.endpoint+' Method:'+inputs.method+' JSON Body:'+inputs.json);
+  //var v_v_json=JSON.parse(v_json);
+  gs.info('Integration- EndPoint:'+inputs.endpoint+' Method:'+inputs.method+' JSON Body:'+inputs.json);
  var r = new sn_ws.RESTMessageV2(inputs.endpoint,inputs.method);
- for (var k in v_json){
-  r.setStringParameterNoEscape(k,v_json[k]);
- }
+// for (var k=0; k&lt;v_v_json.&lt;i&gt;length;k++){
+  r.setStringParameterNoEscape('short_description',v_json);
+// }
  var response = r.execute();
  var responseBody = response.getBody();
  var httpStatus = response.getStatusCode();
-  gs.debug('Integration- httpStatus:'+httpStatus+' responseBody:'+responseBody);
+  gs.info('Integration- httpStatus:'+httpStatus+' responseBody:'+responseBody);
   outputs.httpCode=httpStatus;
   outputs.httpStatus=responseBody;
   outputs.response=responseBody;
