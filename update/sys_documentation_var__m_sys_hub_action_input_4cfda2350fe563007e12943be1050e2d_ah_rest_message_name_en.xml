@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ah_rest_message_name" label="Rest Message Name" language="en" table="var__m_sys_hub_action_input_4cfda2350fe563007e12943be1050e2d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_rest_message_name</element>
+            <help/>
+            <hint/>
+            <label>Rest Message Name</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_4cfda2350fe563007e12943be1050e2d</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-04 07:19:38</sys_created_on>
+            <sys_id>c4fda2350fe563007e12943be1050e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Rest Message Name</sys_name>
+            <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_4cfda2350fe563007e12943be1050e2d_ah_rest_message_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-04 07:19:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="ah_method" label="method" language="en" table="var__m_sys_hub_action_input_57f831484f831300ea0645dba310c759">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>ah_method</element>

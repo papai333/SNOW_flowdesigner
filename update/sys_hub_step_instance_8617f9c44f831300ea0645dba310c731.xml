@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_hub_step_instance">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Integration Outbound">c8d4f1844f831300ea0645dba310c7f7</action>
         <cid>3226ff55-5eeb-4ef3-93e5-54b696f862bc</cid>
@@ -16,16 +15,30 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 10:13:41</sys_created_on>
         <sys_id>8617f9c44f831300ea0645dba310c731</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Script step</sys_name>
         <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
         <sys_update_name>sys_hub_step_instance_8617f9c44f831300ea0645dba310c731</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-27 11:49:07</sys_updated_on>
+        <sys_updated_on>2018-11-04 07:21:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8617f9c44f831300ea0645dba310c731"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8617f9c44f831300ea0645dba310c731</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-04 07:19:35</sys_created_on>
+        <sys_id>03ed62350fe563007e12943be1050ee9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-04 07:19:35</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>8617f9c44f831300ea0645dba310c731</document_key>
@@ -34,13 +47,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 10:13:42</sys_created_on>
         <sys_id>da17f9c44f831300ea0645dba310c759</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-27 11:44:31</sys_updated_on>
+        <sys_updated_on>2018-11-04 07:21:30</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   
  var v_json= inputs.json;
+  gs.log('Integration- EndPoint:'+inputs.endpoint+' Method:'+inputs.method+' JSON Body:'+inputs.json;)
  var r = new sn_ws.RESTMessageV2(inputs.endpoint,inputs.method);
  for (var k in v_json){
   r.setStringParameterNoEscape(k,v_json[k]);
@@ -48,6 +62,7 @@
  var response = r.execute();
  var responseBody = response.getBody();
  var httpStatus = response.getStatusCode();
+  gs.log('Integration- httpStatus:'+httpStatus+' responseBody:'+responseBody);
   outputs.httpCode=httpStatus;
   outputs.httpStatus=responseBody;
   
@@ -56,6 +71,18 @@
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8617f9c44f831300ea0645dba310c731"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8617f9c44f831300ea0645dba310c731</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-04 07:19:35</sys_created_on>
+        <sys_id>0bed62350fe563007e12943be1050ee8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-04 07:19:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>endpoin</field>
         <id>8617f9c44f831300ea0645dba310c731</id>

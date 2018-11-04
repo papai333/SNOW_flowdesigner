@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="ah_rest_methos" label="Rest Methos" language="en" table="var__m_sys_hub_action_input_c8d4f1844f831300ea0645dba310c7f7">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>ah_rest_methos</element>

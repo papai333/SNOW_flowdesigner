@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_hub_action_type_snapshot">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <annotation/>
         <category/>
+        <copied_from/>
+        <copied_from_name/>
         <description/>
+        <internal_name/>
         <label_cache>[{"name":"{{action.ah_endpoint}}","label":"action➛Endpoint","type":"action","ref":""},{"name":"{{action.ah_method}}","label":"action➛method","type":"action","ref":""},{"name":"{{action.ah_json}}","label":"action➛json","type":"action","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].h}}","label":"step➛Script step➛h","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].ht}}","label":"step➛Script step➛ht","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].htt}}","label":"step➛Script step➛htt","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].http}}","label":"step➛Script step➛http","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpS}}","label":"step➛Script step➛httpS","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpSt}}","label":"step➛Script step➛httpSt","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpSta}}","label":"step➛Script step➛httpSta","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStat}}","label":"step➛Script step➛httpStat","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatu}}","label":"step➛Script step➛httpStatu","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpCode}}","label":"step➛Script step➛httpCode","type":"step","ref":""}]</label_cache>
+        <master>false</master>
         <name>Integration Outbound</name>
         <outputs/>
         <outputs/>
@@ -23,8 +26,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-06-27 10:24:17</sys_updated_on>
         <system_level>false</system_level>
+        <type/>
     </sys_hub_action_type_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=418939484f831300ea0645dba310c729"/>
     <sys_variable_value action="delete_multiple" query="document_key=418939484f831300ea0645dba310c729"/>
     <sys_element_mapping action="delete_multiple" query="id=418939484f831300ea0645dba310c729"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">

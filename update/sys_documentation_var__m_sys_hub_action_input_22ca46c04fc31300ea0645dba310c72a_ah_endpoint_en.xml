@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="ah_endpoint" label="Endpoint" language="en" table="var__m_sys_hub_action_input_22ca46c04fc31300ea0645dba310c72a">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>ah_endpoint</element>
