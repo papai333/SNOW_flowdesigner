@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
     <sys_rest_message action="INSERT_OR_UPDATE">
         <access>package_private</access>
-        <authentication_type>no_authentication</authentication_type>
+        <authentication_type>basic</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile/>
+        <basic_auth_profile display_value="Papai">4c22fa790fe563007e12943be1050eca</basic_auth_profile>
         <basic_auth_user/>
         <description/>
         <name>RestMessage</name>
         <oauth2_profile/>
         <protocol_name/>
-        <rest_endpoint>https://dev55649.service-now.com/api/215894/test</rest_endpoint>
+        <rest_endpoint>https://jnjsandbox.service-now.com/api/now/table/incident</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 10:30:37</sys_created_on>
         <sys_id>8ecaf5884f831300ea0645dba310c75b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>RestMessage</sys_name>
         <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
         <sys_update_name>sys_rest_message_8ecaf5884f831300ea0645dba310c75b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-27 10:30:37</sys_updated_on>
+        <sys_updated_on>2018-11-04 07:38:12</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>

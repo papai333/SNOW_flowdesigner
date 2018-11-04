@@ -5,7 +5,7 @@
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
         <comment>Create task when critical incident is created</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Critical Incident Flow">ea03f9844f031300ea0645dba310c7fe</flow>
         <order>1</order>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 12:23:35</sys_created_on>
         <sys_id>b0d412884fc31300ea0645dba310c767</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
         <sys_update_name>sys_hub_action_instance_b0d412884fc31300ea0645dba310c767</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-27 12:24:32</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-04 08:10:25</sys_updated_on>
         <ui_id>966fbbc1-860f-45dd-88a4-6360dcc20b83</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b0d412884fc31300ea0645dba310c767"/>

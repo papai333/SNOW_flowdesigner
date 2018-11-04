@@ -5,7 +5,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Close task after integration</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Critical Incident Flow">ea03f9844f031300ea0645dba310c7fe</flow>
         <order>3.2</order>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 12:23:36</sys_created_on>
         <sys_id>85d412884fc31300ea0645dba310c77e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
         <sys_update_name>sys_hub_action_instance_85d412884fc31300ea0645dba310c77e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-27 12:24:33</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-04 08:10:26</sys_updated_on>
         <ui_id>085d1d9a-ec77-4719-bfe1-09c2480e075e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=85d412884fc31300ea0645dba310c77e"/>

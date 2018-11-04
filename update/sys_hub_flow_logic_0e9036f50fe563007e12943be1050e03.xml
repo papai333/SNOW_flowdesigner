@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">85d412884fc31300ea0645dba310c795</block>
+        <comment/>
+        <connected_to>469ee6da-092a-4bdf-8e47-53590389edf0</connected_to>
+        <display_text/>
+        <flow display_value="Critical Incident Flow">8e90f2f50fe563007e12943be1050edc</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-04 07:31:15</sys_created_on>
+        <sys_id>0e9036f50fe563007e12943be1050e03</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_0e9036f50fe563007e12943be1050e03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-04 08:08:45</sys_updated_on>
+        <ui_id>a8bd8fde-2c4d-442f-a997-7e482c923639</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0e9036f50fe563007e12943be1050e03"/>
+</record_update>

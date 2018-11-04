@@ -5,7 +5,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Close incident after integration.</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Critical Incident Flow">ea03f9844f031300ea0645dba310c7fe</flow>
         <order>3.1</order>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 10:20:09</sys_created_on>
         <sys_id>a898f9084f831300ea0645dba310c739</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
         <sys_update_name>sys_hub_action_instance_a898f9084f831300ea0645dba310c739</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-27 12:24:32</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-04 08:10:26</sys_updated_on>
         <ui_id>cc2b1e1e-67d1-414a-9221-939376c3519f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a898f9084f831300ea0645dba310c739"/>
@@ -148,9 +148,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 10:20:10</sys_created_on>
         <sys_id>7898f9084f831300ea0645dba310c753</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-27 11:52:14</sys_updated_on>
+        <sys_updated_on>2018-11-04 08:08:32</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>state=7^close_code=Solved Remotely (Permanently)^close_notes={{df25eb2a-2760-446d-871c-68a86943b0df.http_status}}</value>
     </sys_element_mapping>

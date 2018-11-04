@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ah_rest_methos" label="Rest Methos" language="en" table="var__m_sys_hub_action_input_3ab732fd0fe563007e12943be1050ec5">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_rest_methos</element>
+            <help/>
+            <hint/>
+            <label>Rest Methos</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_3ab732fd0fe563007e12943be1050ec5</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-04 08:02:26</sys_created_on>
+            <sys_id>b6b732fd0fe563007e12943be1050ece</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Rest Methos</sys_name>
+            <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3ab732fd0fe563007e12943be1050ec5_ah_rest_methos_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-04 08:02:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

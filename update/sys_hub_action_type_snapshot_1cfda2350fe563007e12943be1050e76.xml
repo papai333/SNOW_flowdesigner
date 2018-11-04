@@ -7,7 +7,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>integration_outbound</internal_name>
-        <label_cache>[{"name":"{{action.ah_rest_message_name}}","label":"action➛Rest Message Name","type":"action","ref":""},{"name":"{{action.ah_rest_methos}}","label":"action➛Rest Methos","type":"action","ref":""},{"name":"{{action.ah_input_json}}","label":"action➛Input JSON","type":"action","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].h}}","label":"step➛Script step➛h","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].ht}}","label":"step➛Script step➛ht","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].htt}}","label":"step➛Script step➛htt","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].http}}","label":"step➛Script step➛http","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpS}}","label":"step➛Script step➛httpS","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpSt}}","label":"step➛Script step➛httpSt","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpSta}}","label":"step➛Script step➛httpSta","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStat}}","label":"step➛Script step➛httpStat","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatu}}","label":"step➛Script step➛httpStatu","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpCode}}","label":"step➛Script step➛httpCode","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.ah_rest_message_name}}","label":"action➛Rest Message Name","type":"action","ref":""},{"name":"{{action.ah_rest_methos}}","label":"action➛Rest Methos","type":"action","ref":""},{"name":"{{action.ah_input_json}}","label":"action➛Input JSON","type":"action","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].h}}","label":"step➛Script step➛h","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].ht}}","label":"step➛Script step➛ht","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].htt}}","label":"step➛Script step➛htt","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].http}}","label":"step➛Script step➛http","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpS}}","label":"step➛Script step➛httpS","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpSt}}","label":"step➛Script step➛httpSt","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpSta}}","label":"step➛Script step➛httpSta","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStat}}","label":"step➛Script step➛httpStat","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatu}}","label":"step➛Script step➛httpStatu","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpCode}}","label":"step➛Script step➛httpCode","type":"step","ref":""},{"name":"{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].response}}","label":"step➛Script step➛response","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Integration Outbound</name>
         <outputs/>
@@ -17,14 +17,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-04 07:19:40</sys_created_on>
         <sys_id>1cfda2350fe563007e12943be1050e76</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Integration Outbound</sys_name>
         <sys_package display_value="Integration" source="x_215894_integrati">154834404f031300ea0645dba310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Integration">154834404f031300ea0645dba310c7ae</sys_scope>
         <sys_update_name>sys_hub_action_type_snapshot_1cfda2350fe563007e12943be1050e76</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-04 07:19:41</sys_updated_on>
+        <sys_updated_on>2018-11-04 08:08:08</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -53,5 +53,29 @@
         <sys_updated_on>2018-11-04 07:19:41</sys_updated_on>
         <table>var__m_sys_hub_action_output_1cfda2350fe563007e12943be1050e76</table>
         <value>{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].httpStatus}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>1cfda2350fe563007e12943be1050e76</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-04 08:02:06</sys_created_on>
+        <sys_id>06a7febd0fe563007e12943be1050e75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-04 08:02:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1cfda2350fe563007e12943be1050e76</table>
+        <value>{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responsebody</field>
+        <id>1cfda2350fe563007e12943be1050e76</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-04 07:57:22</sys_created_on>
+        <sys_id>2096b2bd0fe563007e12943be1050ed6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-04 07:57:22</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1cfda2350fe563007e12943be1050e76</table>
+        <value>{{step[3226ff55-5eeb-4ef3-93e5-54b696f862bc].response}}</value>
     </sys_element_mapping>
 </record_update>
